@@ -29,3 +29,4 @@ st.line_chart(df.set_index("Date")["Sales ($)"])
 
 if st.checkbox("Show raw data table"):
     st.dataframe(df, use_container_width=True)
+    
